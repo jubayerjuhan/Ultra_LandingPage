@@ -74,7 +74,7 @@ export const NavMenu = styled.ul`
 export const NavItems = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
-  /* margin-left: rem; */
+  margin-left: 2rem;
   
   &:hover{
     border-bottom: 2px solid #4b59f7;
@@ -82,6 +82,7 @@ export const NavItems = styled.li`
 
   @media screen and (max-width:968px){
     width: 100%;
+    margin-left: 0rem;
 
     &:hover{
       border: none;
