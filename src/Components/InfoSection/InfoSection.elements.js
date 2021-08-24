@@ -18,7 +18,7 @@ export const InfoColumn = styled.div`
   margin-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 50%;
+  max-width: 100%;
   flex: 1;
   flex-basis: 50%;
 

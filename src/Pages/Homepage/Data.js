@@ -2,7 +2,7 @@
 export const homeObjOne = {
   lightBg: false,
   primary: true,
-  imgStart: '',
+  imgStart: false,
   lightTopLine: true,
   lightSubtitle: true,
   lightHeading: true,
@@ -19,7 +19,7 @@ export const homeObjOne = {
 export const homeObjtwo = {
   lightBg: true,
   primary: true,
-  imgStart: '',
+  imgStart: true,
   lightTopLine: false,
   lightSubtitle: false,
   lightHeading: false,
@@ -36,7 +36,7 @@ export const homeObjtwo = {
 export const homeObjthree = {
   lightBg: false,
   primary: true,
-  imgStart: '',
+  imgStart: false,
   lightTopLine: true,
   lightSubtitle: true,
   lightHeading: true,
@@ -47,5 +47,5 @@ export const homeObjthree = {
   of unique specialist can help you achieve your business goals`,
   start: false,
   alt: 'Image',
-  imageS: require('../../Image/marketing_data.svg').default,
+  imageS: require('../../Image/contentTeam.svg').default,
 }
