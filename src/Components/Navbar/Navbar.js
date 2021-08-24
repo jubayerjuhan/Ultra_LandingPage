@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { Nav, NavbarContainer, NavLogo, NavIcon,MobileIcon,NavMenu,NavItems,NavLinks } from './Navbar.Elements.js'
-import {FaTimes, FaBars} from 'react-icons/fa'
+import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItems, NavLinks } from './Navbar.Elements.js'
+import { FaTimes, FaBars } from 'react-icons/fa'
+import { Button } from "./../../GlobalStyle";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false)
-  const handleClick = () =>{
+  const handleClick = () => {
     setClicked(!clicked);
   }
 
@@ -12,16 +13,16 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to ='/'>
-            <NavIcon/>
+          <NavLogo to='/'>
+            <NavIcon />
             ULTRA
           </NavLogo>
 
           <MobileIcon onClick={handleClick}>
-            {clicked ? <FaTimes/> : <FaBars/>}
+            {clicked ? <FaTimes /> : <FaBars />}
           </MobileIcon>
 
-          <NavMenu clicked = {clicked} onClick={handleClick}>
+          <NavMenu clicked={clicked} onClick={handleClick}>
             <NavItems>
               <NavLinks to='/'>Home</NavLinks>
             </NavItems>
@@ -32,6 +33,12 @@ const Navbar = () => {
 
             <NavItems>
               <NavLinks to='/about-us'>About Us</NavLinks>
+            </NavItems>
+
+            <NavItems>
+              <NavLinks to='/sign-up'>
+                <Button primary >SIGN UP</Button>
+              </NavLinks>
             </NavItems>
 
           </NavMenu>
