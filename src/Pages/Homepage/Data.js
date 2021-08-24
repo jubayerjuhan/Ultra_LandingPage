@@ -34,7 +34,7 @@ export const homeObjtwo = {
 }
 
 export const homeObjthree = {
-  lightBg: false,
+  lightBg: true,
   primary: true,
   imgStart: false,
   lightTopLine: true,
