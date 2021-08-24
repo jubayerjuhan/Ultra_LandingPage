@@ -1,16 +1,15 @@
 import React from 'react'
 import { Container } from '../../GlobalStyle.js';
-import { Heading, InfoColumn, InfoRow, InfoSec, Subtitle, TextWrapper, TopLine } from "./InfoSection.elements";
+import { Heading, ImageWrapper, Img, InfoColumn, InfoRow, InfoSec, Subtitle, TextWrapper, TopLine } from "./InfoSection.elements";
 import { Button } from "./../../GlobalStyle";
 import { Link } from "react-router-dom";
 
-const InfoSection = ({lightBg,imgStart,lightTopLine,lightSubtitle,lightHeading,heading,topline,subtitle,buttonLabel}) => {
+const InfoSection = ({imageS,alt,start,lightBg,imgStart,lightTopLine,lightSubtitle,lightHeading,heading,topline,subtitle,buttonLabel}) => {
   return (
     <>
       <InfoSec lightBg = {lightBg}>
         <Container>
           <InfoRow imgStart = {imgStart}>
-            
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topline}</TopLine>
@@ -23,6 +22,11 @@ const InfoSection = ({lightBg,imgStart,lightTopLine,lightSubtitle,lightHeading,h
               </TextWrapper>
             </InfoColumn>
 
+            <InfoColumn>
+              <ImageWrapper start = {start}>
+                <Img src={imageS} alt={alt} />
+              </ImageWrapper>
+            </InfoColumn>
 
           </InfoRow>
         </Container>

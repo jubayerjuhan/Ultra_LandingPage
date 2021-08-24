@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 160px 0;
+  padding: 110px 0px 110px 0;
   background: ${({ lightBg })=> lightBg ? '#fff': '#101522'};
+;
 `
 
 export const InfoRow = styled.div`
@@ -62,3 +63,19 @@ export const Subtitle = styled.p`
   line-height: 24px;
   color: ${({lightSubtitle})=> lightSubtitle ? '#a9b3c1' : '#1c2237'};
 `
+
+export const ImageWrapper = styled.div`
+  max-width: 550px;
+  display: flex;
+  justify-content: ${({start}) => start ? 'flex-start' : 'flex-end'};
+`
+
+export const Img = styled.img`
+  padding: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+`
+
+
