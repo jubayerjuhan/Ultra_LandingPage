@@ -11,10 +11,12 @@ function App() {
       <GlobalStyle />
       <Router>
         <Navbar />
+
         <Switch>
           <Route exact path="/" component={Home}/>
         </Switch>
 
+          
         <Footer/>
       </Router>
     </>

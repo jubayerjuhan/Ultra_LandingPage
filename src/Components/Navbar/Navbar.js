@@ -35,11 +35,11 @@ const Navbar = () => {
               <NavLinks to='/about-us'>About Us</NavLinks>
             </NavItems>
 
-            <NavItems>
+            <>
               <NavLinks to='/sign-up'>
                 <Button primary >SIGN UP</Button>
               </NavLinks>
-            </NavItems>
+            </>
 
           </NavMenu>
 

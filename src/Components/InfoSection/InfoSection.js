@@ -21,13 +21,12 @@ const InfoSection = ({imageS,alt,start,lightBg,imgStart,lightTopLine,lightSubtit
                 </Link>
               </TextWrapper>
             </InfoColumn>
-
+            
             <InfoColumn>
               <ImageWrapper start = {start}>
                 <Img src={imageS} alt={alt} />
               </ImageWrapper>
             </InfoColumn>
-
           </InfoRow>
         </Container>
       </InfoSec>
