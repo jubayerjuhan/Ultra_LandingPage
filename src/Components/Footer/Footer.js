@@ -1,5 +1,5 @@
 import React from 'react'
-import { EmailField, FooterContainer, FooterSubHeading, FooterSubscription, FooterSubText, TakeEmailContainer } from "./Footer.elements";
+import { EmailField, FooterContainer, FooterLink, FooterLinksContainer, FooterLinksItems, FooterLinksWrapper, FooterLinkTitle, FooterSubHeading, FooterSubscription, FooterSubText, TakeEmailContainer } from "./Footer.elements";
 import { Button } from "./../../GlobalStyle";
 
 const Footer = () => {
@@ -19,6 +19,47 @@ const Footer = () => {
             <Button primary>Subscribe</Button>
           </TakeEmailContainer>
         </FooterSubscription>
+
+        <FooterLinksContainer>
+          <FooterLinksWrapper>
+            <FooterLinksItems>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to ='/sign-up'>How It Works</FooterLink>
+              <FooterLink to ='/sign-up'>Testimonials</FooterLink>
+              <FooterLink to ='/sign-up'>Careers</FooterLink>
+              <FooterLink to ='/sign-up'>Investors</FooterLink>
+              <FooterLink to ='/sign-up'>Terms and Conditions</FooterLink>
+            </FooterLinksItems>
+
+            <FooterLinksItems>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to ='/sign-up'>How It Works</FooterLink>
+              <FooterLink to ='/sign-up'>Testimonials</FooterLink>
+              <FooterLink to ='/sign-up'>Careers</FooterLink>
+              <FooterLink to ='/sign-up'>Investors</FooterLink>
+              <FooterLink to ='/sign-up'>Terms and Conditions</FooterLink>
+            </FooterLinksItems>
+
+            <FooterLinksItems>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to ='/sign-up'>How It Works</FooterLink>
+              <FooterLink to ='/sign-up'>Testimonials</FooterLink>
+              <FooterLink to ='/sign-up'>Careers</FooterLink>
+              <FooterLink to ='/sign-up'>Investors</FooterLink>
+              <FooterLink to ='/sign-up'>Terms and Conditions</FooterLink>
+            </FooterLinksItems>
+
+            <FooterLinksItems>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to ='/sign-up'>How It Works</FooterLink>
+              <FooterLink to ='/sign-up'>Testimonials</FooterLink>
+              <FooterLink to ='/sign-up'>Careers</FooterLink>
+              <FooterLink to ='/sign-up'>Investors</FooterLink>
+              <FooterLink to ='/sign-up'>Terms and Conditions</FooterLink>
+            </FooterLinksItems>
+
+          </FooterLinksWrapper>
+        </FooterLinksContainer>
       </FooterContainer>
     </>
   )
