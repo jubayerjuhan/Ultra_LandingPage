@@ -27,7 +27,7 @@ export const ProductContainer = styled.div`
 `
 
 export const ProductCard = styled.div`
-  width: 280px;
+  width: 200px;
   height: 500px;
   border-radius: 4px;
   background: #242424;
@@ -54,7 +54,7 @@ export const ProductCard = styled.div`
 export const PricingTitle = styled.h2`
   color: #fff;
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 `
 
 export const ProductInfo = styled.div`
@@ -74,7 +74,7 @@ export const ProductCardLogo = styled.div`
   margin-top: 3rem;
 `
 
-export const ProductTitle = styled.h3`
+export const ProductTitle = styled.h1`
   font-size: 3rem;
   margin-bottom: 1rem;
 `
