@@ -9,7 +9,7 @@ export const ProductComponent = styled.section`
   width: 100%;
 `
 export const ProductWrapper = styled.div`
-  margin: 0px 50px;
+  margin: 0px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@ export const ProductContainer = styled.div`
 `
 
 export const ProductCard = styled.div`
-  width: 200px;
+  width: 280px;
   height: 500px;
   border-radius: 4px;
   background: #242424;
@@ -47,7 +47,6 @@ export const ProductCard = styled.div`
   &:nth-child(2) {
     margin: 0 0 3rem 0;
   }
-
   }
 `
 

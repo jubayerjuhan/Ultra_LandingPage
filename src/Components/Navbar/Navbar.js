@@ -28,7 +28,7 @@ const Navbar = () => {
             </NavItems>
 
             <NavItems>
-              <NavLinks to='/services'>Services</NavLinks>
+              <NavLinks to='/pricing'>Pricing</NavLinks>
             </NavItems>
 
             <NavItems>
