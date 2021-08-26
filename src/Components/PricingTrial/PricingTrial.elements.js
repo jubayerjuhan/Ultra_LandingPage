@@ -9,10 +9,14 @@ export const ProductComponent = styled.section`
   width: 100%;
 `
 export const ProductWrapper = styled.div`
-  margin: 0px 10px;
+  margin: 0px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 960px) {
+    margin: 0;
+  }
 `
 export const ProductContainer = styled.div`
   display: flex;
@@ -47,6 +51,7 @@ export const ProductCard = styled.div`
   &:nth-child(2) {
     margin: 0 0 3rem 0;
   }
+
   }
 `
 
