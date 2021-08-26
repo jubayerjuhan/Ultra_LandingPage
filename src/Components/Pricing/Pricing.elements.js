@@ -39,7 +39,7 @@ export const PricingCard = styled.div`
 
 
   &:nth-child(2) {
-    margin: 24px;
+    margin: 240px;
   }
 
   &:hover {
